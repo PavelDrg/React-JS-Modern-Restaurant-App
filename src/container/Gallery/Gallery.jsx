@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import './Gallery.css';
+import { SubHeading } from "../../components";
+import { images, data } from "../../constants";
+import "./Gallery.css";
 
-const Gallery = () => (
-  <div>
-    Gallery
-  </div>
-);
+const Gallery = () => <div>Gallery</div>;
 
 export default Gallery;
